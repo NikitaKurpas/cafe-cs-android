@@ -1,4 +1,4 @@
 cafe-cs-android
 ===============
 
-An android app part of the Cafe Control System
+The android app part of the Cafe Control System
