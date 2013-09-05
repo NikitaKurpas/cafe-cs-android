@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_order_menu_return"
+        android:showAsAction="never"
+        android:title="@string/add_order_menu_return_text" android:enabled="true"/>
+    <item android:id="@+id/add_order_menu_send" android:title="@string/add_order_menu_send_text" android:enabled="true" android:showAsAction="never"></item>
+
+</menu>

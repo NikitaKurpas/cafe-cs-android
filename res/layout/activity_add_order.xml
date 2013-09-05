@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout_base"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".AddOrderActivity" >
+
+    <LinearLayout
+        android:id="@+id/Layout_pickers"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/picker_1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Layout_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Layout_pickers"
+        android:orientation="horizontal" >
+
+        <com.bnsoft.cafe.ButtonedAutoCompleteTextView
+            android:id="@+id/edit_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:hint="@string/edit_order_item_hint"
+            android:inputType="text"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </com.bnsoft.cafe.ButtonedAutoCompleteTextView>
+
+        <ImageButton
+            android:id="@+id/button_add_order_item"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:onClick="OnAddOrderItemClick"
+            android:src="@android:drawable/ic_input_add" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/order_items"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/Layout_edit" >
+    </ListView>
+
+</RelativeLayout>

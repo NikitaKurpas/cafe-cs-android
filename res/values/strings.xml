@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BNSoft Cafe</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_add_order">Add Order</string>
+    <string name="title_settings_activity">BNSoft Cafe Settings</string>
+    <string name="button_add_order">Add order</string>
+    <string name="label_orders_in_progress">Orders in progress:</string>
+    <string name="edit_order_item_hint">Input product name</string>
+    <string name="menu_updateDB">Update local DB</string>
+    <string name="menu_exit">Exit</string>
+    <string name="add_order_menu_return_text">Return</string>
+    <string name="add_order_menu_send_text">Send order</string>
+
+</resources>

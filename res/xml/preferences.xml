@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="@string/title_connection_settings">
+        <EditTextPreference 
+            android:defaultValue="@string/edit_ip_defaultValue" 
+            android:title="@string/edit_ip_title" 
+            android:summary="@string/edit_ip_summary" 
+            android:key="@string/edit_ip_key" 
+            android:enabled="true" />
+	    <EditTextPreference 
+	        android:key="@string/edit_port_key" 
+	        android:defaultValue="@string/edit_port_defaultValue" 
+	        android:enabled="true" android:title="@string/edit_port_title" 
+	        android:summary="@string/edit_port_summary" 
+	        android:inputType="number"/>
+	    
+	</PreferenceCategory>
+	<PreferenceCategory
+	    android:title="@string/title_advanced_settings">
+		<CheckBoxPreference 
+		    android:key="@string/debug_key" 
+		    android:title="@string/debug_title" 
+		    android:selectable="true" 
+		    android:enabled="true" 
+		    android:summaryOn="@string/debug_enabled_summary" 
+		    android:summaryOff="@string/debug_disabled_summary"/>
+		<EditTextPreference 
+            android:defaultValue="@string/edit_currency_defaultValue" 
+            android:title="@string/edit_currency_title" 
+            android:summary="@string/edit_currency_summary" 
+            android:key="@string/edit_currency_key" 
+            android:enabled="true" />
+<!--		<ListPreference 
+		    android:entryValues="@array/fontSize" 
+		    android:entries="@array/fontSize" 
+		    android:key="@string/edit_fontSize_key" 
+		    android:title="@string/edit_fontSize_title" 
+		    android:summary="@string/edit_fontSize_summary" 
+		    android:defaultValue="@string/edit_fontSize_defaultValue"/> -->
+	</PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/title_about">
+    	<Preference 
+    	    android:title="@string/author_web_page">
+<!--        	<intent android:action="android.intent.action.VIEW" 
+           	android:data="@string/author_web_page_link"--> />
+    	</Preference>
+    </PreferenceCategory>
+        
+    
+
+</PreferenceScreen>

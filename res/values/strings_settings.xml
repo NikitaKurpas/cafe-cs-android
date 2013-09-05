@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="edit_ip_key">edit_ip</string>
+    <string name="edit_ip_title">IP address</string>
+    <string name="edit_ip_summary">Enter IP address of the server</string>
+    <string name="edit_ip_defaultValue">192.168.1.7</string>
+    <string name="author_web_page">Developed by BNSoft</string>
+    <string name="author_web_page_link"></string>
+    <string name="title_connection_settings">Connection settings</string>
+    <string name="title_about">About</string>
+    <string name="edit_port_key">edit_port</string>
+    <string name="edit_port_title">Port</string>
+    <string name="edit_port_summary">Enter port of the server</string>
+    <string name="edit_port_defaultValue">8800</string>
+    <string name="db_file_name_key">db_file_name</string>
+    <string name="db_file_name_defaultValue">Goods.xls</string>
+    <string name="title_advanced_settings">Advanced settings</string>
+    <string name="debug_key">debug_key</string>  
+    <string name="debug_title">Debug</string>  
+    <string name="debug_enabled_summary">Debug controls enabled</string>  
+    <string name="debug_disabled_summary">Debug controls disabled</string> 
+    <string name="debug_button_title">Debug menu</string>
+    <string name="edit_currency_key">edit_currency</string>
+    <string name="edit_currency_title">Currency identifier</string>
+    <string name="edit_currency_summary">Enter currency identifier</string>
+    <string name="edit_currency_defaultValue">$</string>
+<!--    <string name="edit_fontSize_key">edit_fontSize</string>
+    <string name="edit_fontSize_title">Font size</string>
+    <string name="edit_fontSize_summary">Pick font size</string>
+    <string name="edit_fontSize_defaultValue">14</string>
+    <string-array name="fontSize">
+        <item >14</item>
+        <item >16</item>
+        <item >20</item>
+        <item >24</item>
+        <item >28</item>
+        <item >32</item>
+        <item >36</item>
+    </string-array> -->
+    
+</resources>
